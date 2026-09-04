@@ -1,56 +1,61 @@
 # AI Animation Shorts Brain Library
 
-These Markdown files are portable creative roles. Download one file and paste it into a fresh AI conversation, then add your own project input underneath the role instructions.
+Download one Markdown brain, give it to ChatGPT, Gemini, Claude, Hermes or another capable LLM, then give the AI your project material. These are operational instructions, not prompt-template collections.
 
-## Recommended order
+## Simple use
 
-1. `00-ai-animation-studio.md` - choose the right creative mode.
-2. `01-award-story-analyst.md` - study mechanisms without copying films.
-3. `02-synopsis-builder.md` - create the story promise.
-4. `03-short-script-builder.md` - turn the synopsis into visible action.
-5. `04-30-second-chunk-planner.md` - prepare clean AI generation containers.
-6. `05-character-world-continuity.md` - lock the visual world.
-7. `06-storyboard-shot-planner.md` - give every shot a job.
-8. `07-ai-animation-director.md` - write generation-ready shot prompts.
-9. `08-sound-and-finish-director.md` - finish after usable shots exist.
-10. `09-originality-and-qc.md` - review before delivery.
-11. `10-portfolio-film-review.md` - prepare the finished short for public presentation.
-12. `11-visual-metaphor-builder.md` - make the central image behave like story.
-13. `12-ai-suitability-and-shot-budget.md` - simplify difficult shots before generation.
-14. `13-festival-readiness-and-director-statement.md` - prepare the film for public delivery.
+1. Download a brain.
+2. Start a new AI conversation.
+3. Attach the Markdown file or paste its contents.
+4. Say: `Follow this brain. Here is my project material.`
+5. Give the AI the requested idea, script, images or production notes.
+6. Save the output and pass it to the next stage.
 
-## How to use one file
+Use a specialist by itself, or use `master/MASTER-AI-ANIMATION-DIRECTOR.md` to guide the whole film progressively. No specialist secretly requires the Master file.
 
-1. Download one Markdown file.
-2. Paste it into a new AI conversation as the working role.
-3. Add your project details after the file.
-4. Ask the AI to follow the output contract in the file.
-5. Save the response as the next project document.
-6. Pass that document to the next brain.
+## Canonical brains
 
-## Important boundary
+### STORY
 
-These brains teach original story development and AI-assisted production planning. They don't reproduce private system instructions, protected scripts, named filmmakers' styles, copyrighted characters or unlicensed reference material. Tool names, limits and access change. Verify the current route before claiming a workflow was tested.
+1. `story/00-AWARD-WINNING-ANIMATION-STORY-BRAIN.md` - story intelligence for original short animation.
+2. `story/01-IDEA-STORY-ARCHITECT.md` - turns a rough idea into 2-3 strong directions.
+3. `story/02-SYNOPSIS-ARCHITECT.md` - builds or repairs a visual synopsis.
+4. `story/03-ANIMATION-SCREENWRITER.md` - writes an economical, AI-producible screenplay.
 
-## Research foundation
+### PRE-PRODUCTION
 
-The story principles were informed by official Academy and Annecy award records, Pixar in a Box / Khan Academy, Walt Disney Animation Studios, ScreenSkills, Sundance award commentary, AI Film Festival Japan terms and current AI-film workflow documentation from Google Flow, LTX Studio and Adobe. The files separate verified source facts from practical teaching recommendations.
+5. `preproduction/04-CONSISTENCY-REFERENCE-DIRECTOR.md` - reads the script and extracts only valuable reference locks.
+6. `preproduction/05-STORYBOARD-DIRECTOR.md` - chooses the right storyboard mode and creates the production plan.
+7. `preproduction/06-SHOT-SEQUENCE-PACKAGER.md` - separates film, scenes, shots and generation blocks.
+8. `preproduction/07-KEYFRAME-FRAME-DIRECTOR.md` - extracts and designs approved start/end/key frames.
 
-## Current research notes
+### PRODUCTION
 
-- `research/ai-film-workflow-research-2026-09-04.md` - current AI-film workflow and festival synthesis.
-- `research/official-ai-film-workflows-2026-09-04.md` - first-party capability reference across current AI film tools.
-- `research/creator-ai-film-case-studies-2026-09-04.md` - documented creator workflows and hybrid production case studies.
-- `research/academy-awards-research.md` - Academy animated-short research.
-- `research/annecy-award-research.md` - Annecy short-film award research.
-- `research/storytelling-research.md` - story and production principles.
+9. `production/08-MOTION-ANIMATION-DIRECTOR.md` - turns approved visuals into concise motion instructions.
+10. `production/09-AUDIO-DIALOGUE-CONTINUITY-DIRECTOR.md` - protects voice, ambience, effects and music continuity.
 
-## Source links
+### POST
 
-- https://www.oscars.org/oscars/ceremonies/2025
-- https://www.annecyfestival.com/
-- https://www.khanacademy.org/partner-content/pixar/storytelling
-- https://disneyanimation.com/process/story
-- https://disneyanimation.com/process/animation
-- https://www.screenskills.com/job-profiles/browse/animation/pre-production/head-of-story
-- https://www.screenskills.com/job-profiles/browse/animation/post-production/sound-designer-animation
+11. `post/10-EDIT-PACING-DIRECTOR.md` - assembles and improves rhythm and emotional pacing.
+12. `post/11-FINAL-FILM-CRITIC-QC.md` - runs story, technical, originality and evidence gates.
+
+### MASTER
+
+13. `master/MASTER-AI-ANIMATION-DIRECTOR.md` - guides the entire project with compact project memory.
+
+## AI-Verse methods preserved
+
+The toolkit keeps the tested AI-Verse order: cast important elements with reference sheets, use a hero frame, think visually with grids, choose and extract approved frames, then animate. It preserves Scene Imagination, Freeze Multi-Angle, Story Progression, A → B Bridge and Commercial Ready storyboard logic. It preserves the approximately five-shot control heuristic while separating editorial shots from model generation blocks. It preserves simple motion language when enough, start-frame and start/end workflows, 2K or 4K preference where available, compare → select → lock iteration, and the audio continuity safeguard: `Audio: no music` when independent clips should retain ambience and effects without inventing competing scores.
+
+## Source and safety boundary
+
+Story principles are synthesized from the repository's Academy, Annecy, Sundance, Pixar in a Box, Disney Animation and ScreenSkills research. Current AI workflow notes are dated and separated from timeless story logic. The supplied Visual Architect file informed the use of roles, locks, output contracts, QC and progressive production state. Private system instructions, hidden policies, credentials and protected film identities were not copied.
+
+Additional source notes:
+
+- `research/sprint-2-methodology-and-brain-architecture.md` - direct extraction of the supplied Sprint 2 and Visual Architect architecture.
+- `research/official-ai-film-workflows-2026-09-04.md` - dated first-party capability reference.
+- `research/current-2026-capability-addendum-2026-09-04.md` - fresh dated capability and availability addendum from the latest research pass.
+- `research/creator-ai-film-case-studies-2026-09-04.md` - documented creator and hybrid production workflows.
+
+The original end-to-end test is `tests/last-drop-end-to-end.md`. It passes the same fictional film through story, references, boards, shots, keyframes, motion, audio, edit and QC without claiming that a final video was generated.

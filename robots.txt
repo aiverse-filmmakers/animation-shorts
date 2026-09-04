@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aiverse-filmmakers.github.io/animation-shorts/sitemap.xml
