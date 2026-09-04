@@ -1,143 +1,301 @@
-# Start Here: Use the AI Animation Brains
+# Start Here: Create With the AI Animation Director
 
-If you have never used AI for filmmaking, begin here.
+If you have never written a script, directed a film or used AI filmmaking tools, start here.
 
-## What an AI brain is
+## The most important thing to understand
 
-An AI brain is a Markdown file ending in `.md`. Markdown is just plain text with headings. The file contains detailed working instructions for a general-purpose AI chat. It does not run by itself.
+**This website does not contain the filmmaking chat.**
 
-The file is:
+The website gives you the Brain files, the steps and the continuity templates. The actual conversation happens in a general-purpose AI chat such as ChatGPT, Claude, Gemini, Hermes or another capable model.
 
-- not an app;
-- not a model;
-- not a plugin;
-- not something you install;
-- not a finished image or video prompt;
-- not a replacement for an image generator, video generator or editor.
-
-You attach or paste the brain into a capable AI chat. The AI reads it and takes on one filmmaking job, such as developing your story, planning references or writing a motion prompt.
-
-## Where the brains work
-
-Use them with a general-purpose AI chat that can read long text or attached files. Current examples include ChatGPT, Claude, Gemini and Hermes. Other capable hosted or local language models can work too.
-
-The brain is not tied to one company. Results still depend on the model, its context limit, whether it can read attachments, and whether it can inspect images, audio or video.
-
-Do not upload a brain directly to an image-only or video-only generator. Those tools create media. The AI chat plans the work and writes the prompt you take into the media tool.
-
-A typical route is:
+Think of the workflow like this:
 
 ```text
-AI CHAT
-idea → story → script → reference plan → storyboard plan → generation prompts
+WEBSITE
+Download the Brain and see what to do next.
 
-IMAGE OR VIDEO TOOL
-upload approved references → paste the generated prompt → create several versions
+GENERAL AI CHAT
+The Brain does the reasoning: ideas, story, script, continuity, storyboard decisions, shot plans, prompts and QC.
 
-AI CHAT
-return with the chosen result, screenshot, notes or file → check continuity → plan the next shot
+IMAGE / VIDEO / AUDIO TOOLS
+You execute the prompts and create media.
 
-VIDEO EDITOR
-assemble clips → add sound → review → export
+GENERAL AI CHAT
+You bring the results back. The AI checks them and directs the next step.
+
+YOUR PROJECT FOLDER
+You keep the files that let the project survive a new chat, a new month or a new episode.
 ```
 
-Some all-in-one AI services can both chat and generate media. Even there, keep the two jobs clear: the brain directs and checks; the media feature generates.
+## What an AI Brain is
 
-## The easiest first route
+An AI Brain is a Markdown file ending in `.md`. Markdown is plain text with headings. The file contains working instructions for an AI chat.
 
-For your first film, use only:
+It is not:
+
+- an app;
+- an image or video generator;
+- a plugin you install;
+- a finished media prompt;
+- the website itself.
+
+You attach or paste the Brain into a capable AI chat. The AI then takes on the filmmaking role described by the file.
+
+## The easiest route
+
+For a new film or series, use only:
 
 `master/MASTER-AI-ANIMATION-DIRECTOR.md`
 
-Do not upload all 13 brains together. More instruction files do not automatically create a better result. They can compete for control or overwhelm the chat.
+Do not upload all specialist brains together. The Master can guide the whole project. Specialist brains are optional when you want one focused job in a separate chat.
 
-Use one specialist brain when you only need one focused job. For example, use the Synopsis Architect to repair a synopsis without running the whole production.
+## Step 1: make one project folder
 
-## How to start in any AI chat
+Before starting, create a folder on your computer or cloud drive for the project.
 
-1. Download the one `.md` brain you need.
-2. Start a new chat in your chosen general-purpose AI app.
-3. Attach the `.md` file using the app's file or attachment control.
-4. Attach or paste the project material named on the brain's card, if you already have it.
-5. Send this starter message:
+Example:
 
 ```text
-Read the attached Markdown file as the working instructions for this chat. Confirm the exact brain name, explain its job in one short sentence, list which project files or information you can actually access, then ask me only the first question I need to answer. I am a beginner, so explain unfamiliar terms before using them. Do not claim you can see a file, image, audio track or video unless you can actually inspect it.
+SAMURAI-SERIES/
 ```
 
-6. Answer the AI's first question in ordinary language. You do not need to know filmmaking or AI terminology.
-7. Approve important choices before moving on. Say `approve and lock this` when you want a decision preserved.
-8. Save each useful output outside the chat. Chats and attachments may not carry into a new conversation.
+This folder is your real long-term memory. A chat is not your production archive.
 
-## If the app will not accept `.md` files
+## Step 2: open a general-purpose AI chat
 
-1. Open the `.md` file in any text editor.
-2. Select all and copy it.
-3. Paste it into a new AI chat.
-4. Under it, paste the starter message above.
+Examples include ChatGPT, Claude, Gemini and Hermes.
 
-If the file is too long for the chat, use a capable model or chat with a larger context window. Do not split a brain randomly because rules at the end may be lost.
+Start a new chat. Attach:
 
-Do not upload the ZIP itself to the AI. Extract it first, then choose one brain.
+`MASTER-AI-ANIMATION-DIRECTOR.md`
 
-## What to give the AI
+If the app does not accept `.md`, open the file in a text editor, copy all of it and paste it into the chat before the starter message.
 
-You can begin with one plain sentence, for example:
+## Step 3: send this starter message
+
+Copy this into the AI chat, then replace the last line with your own idea.
 
 ```text
-I want to make a 45-second animated short about a lonely streetlight that tries to keep one flower alive during a blackout.
+Read the attached Master AI Animation Director Markdown file as the working instructions for this chat.
+
+I am a beginner. I may not know screenwriting, directing, story structure or AI filmmaking terminology.
+
+Do as much of the filmmaking thinking as you reasonably can using the knowledge inside the Brain. Do not make me manually perform or study a filmmaking task when you can reliably perform it for me.
+
+Guide me one useful step at a time. Ask only questions whose answers materially change what you are about to create.
+
+Whenever we create something I will need later, clearly tell me:
+SAVE THIS
+FILE NAME
+WHAT IT CONTAINS
+WHY I NEED IT
+WHEN I WILL NEED IT AGAIN
+HOW TO SAVE IT
+
+Whenever I need to leave this chat and use an image generator, video generator, audio tool or editor, clearly tell me:
+NEXT TOOL
+WHAT TO UPLOAD
+WHAT TO PASTE
+HOW MANY VERSIONS TO MAKE
+WHAT SUCCESS LOOKS LIKE
+WHAT TO SAVE THE WINNER AS
+WHAT TO BRING BACK HERE
+
+Do not claim you can inspect a file, image, audio track or video unless you can actually inspect it.
+
+My project idea is: [WRITE ONE ORDINARY SENTENCE HERE]
 ```
 
-Later stages may need:
+You can write something as simple as:
 
-- your approved premise or synopsis;
-- your script or beat map;
-- character and location descriptions;
-- approved reference images;
-- a storyboard or shot list;
-- generated clips and their durations;
-- audio notes;
-- the latest Project State block.
+```text
+My project idea is: I want a five-minute anime where a samurai protects a girl crossing a dangerous valley.
+```
 
-If the AI cannot inspect an image or video, describe what is visible and what went wrong. For precise visual or motion review, use a multimodal AI that can inspect that media type.
+or:
 
-## How to move between brains
+```text
+My project idea is: Give me three ideas for a six-episode anime series, two minutes per episode.
+```
 
-At the end of a useful response, save the handoff below. A new chat does not automatically remember previous chats or attachments:
+You do not need to arrive with a synopsis, screenplay, shot list or character sheet.
 
-- the deliverable;
-- `LOCKS USED`;
-- `NEW DECISIONS`;
-- `OPEN QUESTIONS`;
-- `NEXT HANDOFF`;
-- the latest Project State.
+## What the AI should do for you
 
-When starting another specialist, attach that saved output with the new brain. Do not assume a new chat remembers the previous one.
+The Master should use the embedded research and workflow knowledge internally. It can:
 
-Use `PROJECT-STATE-TEMPLATE.md` as the single short record of what is approved.
+- propose story directions;
+- build and repair story logic;
+- write the script or episode script;
+- read that script and identify what actually needs continuity references;
+- decide which storyboard method fits;
+- break the film into editorial shots and generation blocks;
+- decide when start/end/keyframes are useful;
+- write image and motion prompts;
+- tell you exactly which approved references to upload;
+- plan audio and editing;
+- review continuity and story clarity;
+- tell you what to save for the next episode or a future chat.
+
+The AI should not send you away to repeat award-winning-animation research that is already compiled into the Brain unless you explicitly want to study it.
+
+## Your job
+
+You still make the creative choices that matter.
+
+You normally need to:
+
+1. describe what you want;
+2. choose or approve the directions you like;
+3. run image/video/audio generation when instructed;
+4. bring candidate results back;
+5. approve the keeper;
+6. save the exact files the AI tells you to preserve.
+
+## When the AI tells you to SAVE THIS
+
+If your AI chat can create downloadable files, ask it to provide the complete artifact as that file.
+
+If not, ask:
+
+```text
+Give me the complete contents for that file in one copyable Markdown block.
+```
+
+Copy it into any plain-text editor and save it with the exact filename the AI gave you.
+
+Do not casually rename locked reference images after they enter the Asset Manifest.
+
+## For a standalone film
+
+Use `PROJECT-STATE-TEMPLATE.md` as the active memory record.
+
+The Master should update it as the project moves from story to references, storyboard, shots, motion, audio, edit and QC.
+
+## For a connected series
+
+The Master should additionally create and maintain three durable files.
+
+### 1. Series Bible
+
+Template: `SERIES-BIBLE-TEMPLATE.md`
+
+Typical saved file:
+
+`SERIES-BIBLE-v01.md`
+
+This contains permanent story, character, world, visual and audio canon.
+
+### 2. Episode End State
+
+Template: `EPISODE-END-STATE-TEMPLATE.md`
+
+Typical file:
+
+`E01-END-STATE.md`
+
+This records what became true by the end of the episode so Episode 2 starts from the correct state.
+
+### 3. Asset Manifest
+
+Template: `ASSET-MANIFEST-TEMPLATE.md`
+
+Typical file:
+
+`ASSET-MANIFEST-v02.md`
+
+This maps stable IDs such as `CHAR-01`, `PROP-01`, `WORLD-01` and `E01-SHOT-01` to the exact approved filenames.
+
+## How media handoffs should work
+
+The AI chat should never simply say “go animate it.”
+
+For an image generation it should tell you, for example:
+
+```text
+NEXT TOOL: IMAGE GENERATOR
+WHAT TO UPLOAD:
+CHAR-01-SAMURAI-v01.png
+WORLD-01-MOUNTAIN-v01.png
+
+WHAT TO PASTE:
+[exact prompt]
+
+HOW MANY VERSIONS:
+3
+
+WHAT SUCCESS LOOKS LIKE:
+Same face, wardrobe and sword; correct environment; readable action.
+
+WHAT TO SAVE THE WINNER AS:
+E01-SHOT-03-START-v01.png
+
+WHAT TO BRING BACK HERE:
+The candidates or the selected image plus its filename.
+```
+
+The same principle applies to video generation, audio and editing.
+
+## Episode-safe names
+
+For series work, editorial material should include the episode number.
+
+Use:
+
+`E01-SHOT-01`
+
+not merely:
+
+`SHOT-01`
+
+because Episode 2 will have its own Shot 1.
+
+Recurring character, prop and world IDs can remain global when they truly persist across episodes.
+
+## How to continue next month
+
+Return to the website and choose **Continue Existing Project**.
+
+Open a new general-purpose AI chat and attach:
+
+1. the latest Master Director;
+2. the latest `SERIES-BIBLE-v##.md`;
+3. the latest episode end state such as `E01-END-STATE.md`;
+4. the latest `ASSET-MANIFEST-v##.md`;
+5. the actual locked reference images named by the manifest.
+
+Then send:
+
+```text
+Read the Master Director as the working instructions. I am continuing an existing series. Read all attached continuity files and visual references. Do not redesign or contradict anything marked LOCKED. Tell me what canon, story state and visual assets you can actually access, then continue with the next episode from the exact ending state of the previous one. Ask only the first question that materially changes the next episode.
+```
+
+A new chat does not automatically remember an old one. The saved continuity package is what makes continuation reliable.
 
 ## What the words mean
 
-- **Proposed:** the AI suggests it, but you have not accepted it.
+- **Proposed:** the AI suggested it, but you have not accepted it.
 - **Approved:** you chose it for the current stage.
-- **Locked:** later stages must preserve it unless you deliberately unlock it.
-- **Reference:** an image or description used to keep identity or design stable.
+- **Locked:** future stages must preserve it unless you deliberately unlock it.
+- **Reference:** an approved image or description used to preserve identity or design.
 - **Keyframe:** an approved still that anchors a shot or motion change.
-- **Shot:** one continuous view in the edited film.
-- **Generation:** one attempt made by an AI media tool. One shot may need several attempts.
-- **Prompt:** the instruction pasted into an AI tool.
-- **Handoff:** the saved information passed to the next stage.
-- **QC:** quality control, meaning a deliberate check before moving on.
+- **Shot:** one continuous editorial view in the final film.
+- **Generation:** one attempt in a media model. One shot may need several attempts.
+- **Asset Manifest:** the list that maps stable project IDs to exact approved files.
+- **Series Bible:** permanent canon for connected episodes.
+- **Episode End State:** what is true at the exact end of one episode.
+- **QC:** quality control before moving forward or calling the film finished.
 
 ## Important limits
 
-- An AI can give confident but wrong advice. Verify changing model features, durations, prices and access in the tool you actually use.
-- A prompt is not proof that an image or video was successfully generated.
-- A chat may say it reviewed an attachment even when it could not access it. Ask it to state what it can actually see.
-- Upload only material you have the right to use. Do not upload confidential client work to a service unless its privacy terms and your agreement allow it.
-- Do not ask for copies of protected characters, films, shots, dialogue or a living artist's distinctive style. Build original work from transferable storytelling principles.
-- Keep your own copies of approved text, images, clips and audio. The AI chat is not your production archive.
+- AI can sound confident while being wrong. Changing model features, prices, limits and access must be verified when they matter.
+- A prompt is not proof that media was successfully generated.
+- A still image does not prove motion.
+- A chat may be unable to inspect a supplied media type. It must state that honestly.
+- Upload only material you have the right and permission to use.
+- Do not copy protected characters, plots, dialogue or a living artist's distinctive style.
+- Keep your own copies of approved text, images, clips and audio.
 
 ## Your first action
 
-Download `master/MASTER-AI-ANIMATION-DIRECTOR.md`, open a new general-purpose AI chat, attach the file, and send the starter message. When it asks for your idea, one ordinary sentence is enough.
+Download `master/MASTER-AI-ANIMATION-DIRECTOR.md`, open your chosen general-purpose AI chat, attach it and send the starter message above with one ordinary sentence describing what you want to make.
