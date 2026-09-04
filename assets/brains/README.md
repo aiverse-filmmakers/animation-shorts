@@ -39,6 +39,7 @@ The story principles were informed by official Academy and Annecy award records,
 ## Current research notes
 
 - `research/ai-film-workflow-research-2026-09-04.md` - current AI-film workflow and festival synthesis.
+- `research/official-ai-film-workflows-2026-09-04.md` - first-party capability reference across current AI film tools.
 - `research/academy-awards-research.md` - Academy animated-short research.
 - `research/annecy-award-research.md` - Annecy short-film award research.
 - `research/storytelling-research.md` - story and production principles.
