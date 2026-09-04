@@ -2,48 +2,104 @@
 
 ## New to AI? Start here
 
-Open `START-HERE.md` before using any brain. It explains what a Markdown brain is, where it works, how to attach or paste it, how an AI chat differs from an image or video generator, and how to save your work between chats.
+Open `START-HERE.md` before using any Brain.
 
-Use `PROJECT-STATE-TEMPLATE.md` to keep the latest approved story, visual and production decisions together.
+The beginner route is now intentionally simple:
+
+1. download `master/MASTER-AI-ANIMATION-DIRECTOR.md`;
+2. open a general-purpose AI chat such as ChatGPT, Claude, Gemini or Hermes;
+3. attach the Master Brain;
+4. paste the starter message from `START-HERE.md`;
+5. describe what you want to make in ordinary language;
+6. let the Master do as much of the filmmaking craft as it reliably can;
+7. approve creative choices, run media-generation steps when instructed, and save the exact files it tells you to keep.
+
+The website is the navigator and download hub. The general-purpose AI chat is the reasoning workspace. Image/video/audio tools execute media prompts. The user's own project folder is persistent memory.
 
 ## What these files are
 
-Each brain is a plain-text `.md` instruction file for a capable general-purpose AI chat. Examples include ChatGPT, Claude, Gemini and Hermes. Other capable language models can work too.
+Each Brain is a plain-text `.md` instruction file for a capable general-purpose AI chat.
 
-The files do not run by themselves. They are not plugins, apps, image models or video models. They help an AI chat plan, question, structure, write prompts and perform quality control. You take the resulting media prompts and approved references into your chosen image or video generation tool.
+They are not plugins, apps, image models or video models. They help an AI chat reason, write, plan, construct prompts, protect continuity and perform quality control.
 
-## Fastest first-film route
+Do not upload all specialist Brains together. Use the Master for the guided route, or one specialist alone for one focused job.
 
-1. Extract the downloaded ZIP.
-2. Open `START-HERE.md`.
-3. Download or locate `master/MASTER-AI-ANIMATION-DIRECTOR.md`.
-4. Start a new general-purpose AI chat.
-5. Attach only the Master brain.
-6. Send the starter message from `START-HERE.md`.
-7. Give it one ordinary sentence about your film idea.
-8. Save useful outputs and the Project State outside the chat.
+## Master Director
 
-Do not upload all 13 brains together. Use the Master alone for a guided film, or one specialist alone for a focused task.
+`master/MASTER-AI-ANIMATION-DIRECTOR.md`
 
-## Canonical brains
+The Master is the default route. It can begin from:
+
+- one rough idea;
+- a request for story ideas;
+- an existing script;
+- a partial project;
+- or saved continuity files from an earlier episode.
+
+It is designed to ask only for decisions that materially change the current deliverable. It should not make a beginner manually repeat research or filmmaking work that it can reasonably perform itself.
+
+## Persistence files
+
+### Active Project State
+
+`PROJECT-STATE-TEMPLATE.md`
+
+Use this for the current film or episode's active production state.
+
+### Series Bible
+
+`SERIES-BIBLE-TEMPLATE.md`
+
+Use this for connected episodic work. It stores permanent canon: series premise, world rules, recurring character facts, visual language, audio rules and long-term story information.
+
+### Episode End State
+
+`EPISODE-END-STATE-TEMPLATE.md`
+
+Create one after each completed episode. It records what is true now so the next episode does not reset character knowledge, relationships, injuries, props, locations or unresolved threads.
+
+### Asset Manifest
+
+`ASSET-MANIFEST-TEMPLATE.md`
+
+Maps stable IDs such as `CHAR-01`, `PROP-01`, `WORLD-01` and `E01-SHOT-01` to the exact approved filenames that act as visual or production authority.
+
+## Stable IDs
+
+Recurring series assets can keep global IDs:
+
+- `CHAR-01`
+- `PROP-01`
+- `WORLD-01`
+- `AUDIO-01`
+
+Episode editorial material should be namespaced:
+
+- `E01-SHOT-01`
+- `E01-GB-01`
+- `E02-SHOT-01`
+
+Grid panel numbers, editorial shot IDs, generation blocks and takes are different layers and must not be treated as interchangeable.
+
+## Canonical specialist Brains
 
 ### Story
 
 1. `story/00-AWARD-WINNING-ANIMATION-STORY-BRAIN.md` evaluates or repairs story logic without copying existing films.
-2. `story/01-IDEA-STORY-ARCHITECT.md` turns a rough thought into two or three original directions.
+2. `story/01-IDEA-STORY-ARCHITECT.md` turns minimal input into original directions.
 3. `story/02-SYNOPSIS-ARCHITECT.md` builds or repairs a compact visual synopsis.
 4. `story/03-ANIMATION-SCREENWRITER.md` writes an economical, AI-producible screenplay.
 
 ### Pre-production
 
 5. `preproduction/04-CONSISTENCY-REFERENCE-DIRECTOR.md` reads the script and identifies only the elements worth visually locking.
-6. `preproduction/05-STORYBOARD-DIRECTOR.md` chooses the right storyboard method and creates the plan.
-7. `preproduction/06-SHOT-SEQUENCE-PACKAGER.md` separates story sections, editorial shots and AI generation attempts.
+6. `preproduction/05-STORYBOARD-DIRECTOR.md` chooses the appropriate AI-Verse storyboard method and creates the plan.
+7. `preproduction/06-SHOT-SEQUENCE-PACKAGER.md` separates scenes/sequences, editorial shots and AI generation blocks.
 8. `preproduction/07-KEYFRAME-FRAME-DIRECTOR.md` plans approved reference, start, end and key frames.
 
 ### Production
 
-9. `production/08-MOTION-ANIMATION-DIRECTOR.md` turns one approved shot into a concise motion instruction for a video generation tool.
+9. `production/08-MOTION-ANIMATION-DIRECTOR.md` turns an approved shot into a route-aware video-generation instruction.
 10. `production/09-AUDIO-DIALOGUE-CONTINUITY-DIRECTOR.md` protects dialogue, voice, ambience, effects, silence and music continuity.
 
 ### Post-production
@@ -51,40 +107,58 @@ Do not upload all 13 brains together. Use the Master alone for a guided film, or
 11. `post/10-EDIT-PACING-DIRECTOR.md` plans and diagnoses the rough cut, rhythm and emotional pacing.
 12. `post/11-FINAL-FILM-CRITIC-QC.md` checks story, originality, continuity, motion, audio, evidence and delivery.
 
-### Master
-
-13. `master/MASTER-AI-ANIMATION-DIRECTOR.md` guides the whole project progressively and maintains compact project state.
-
 ## How the tools connect
 
 ```text
-GENERAL AI CHAT
-Use one brain to develop decisions and copyable prompts.
-
-IMAGE GENERATOR
-Upload approved references and use the image prompt.
-
-VIDEO GENERATOR
-Upload approved frames or references and use the motion prompt.
+WEBSITE
+Choose route → download Brain → see what to attach and paste
 
 GENERAL AI CHAT
-Return with the chosen output, notes or media for continuity and QC.
+Develop story → write script → extract continuity → plan boards/shots → write prompts → QC
+
+IMAGE / VIDEO / AUDIO TOOL
+Upload exact approved references → paste exact prompt → create versions
+
+GENERAL AI CHAT
+Bring result back → inspect what is accessible → compare → select → lock → plan next action
 
 VIDEO EDITOR
-Assemble clips, sound and titles, then export the final film.
+Assemble → sound → review → export
+
+PROJECT FOLDER
+Keep the continuity files and approved media that allow future chats or episodes to resume
 ```
 
-If one service contains both chat and media generation, keep these roles separate. The brain is still the directing logic. The generator is still the production route.
+At every external-tool handoff, the Master should state:
+
+- next tool;
+- what to upload;
+- what to paste;
+- how many attempts;
+- what success looks like;
+- what to save the winner as;
+- what to bring back to the AI chat.
+
+At every important persistence point, it should state:
+
+- `SAVE THIS`;
+- filename;
+- what it contains;
+- why it is needed;
+- when it is needed again;
+- how to save it.
 
 ## AI-Verse methods preserved
 
-The toolkit keeps the tested AI-Verse order: cast important elements with reference sheets, establish a hero frame, think visually with grids, choose and extract approved frames, then animate. It preserves Scene Imagination, Freeze Multi-Angle, Story Progression, A → B Bridge and Commercial Ready storyboard logic. It uses approximately five shots as a control heuristic while keeping editorial shots separate from model generations. It preserves simple motion language, start-frame and start/end workflows, generate → compare → select → lock iteration, and the audio safeguard `Audio: no music` when independently generated clips should keep ambience and effects while music is built continuously in the edit.
+The toolkit keeps the AI-Verse order: protect important recurring elements with references, establish approved visual anchors, think visually with grids, select/extract approved frames, then animate.
 
-## Source and safety boundary
+It preserves Scene Imagination, Freeze Multi-Angle, Story Progression, A → B Bridge and Commercial / Production Ready storyboard logic; keeps editorial shots separate from model generations; uses simple motion language when sufficient; supports start-frame and start/end workflows; uses generate → compare → select → lock; and keeps `Audio: no music` as a reasoned continuity safeguard when continuous music will be built later in the edit.
 
-Story principles are synthesized from the repository's Academy, Annecy, Sundance, Pixar in a Box, Disney Animation and ScreenSkills research. Current AI workflow notes are dated and separated from timeless story logic. The supplied Visual Architect file informed roles, locks, output contracts, quality gates and progressive production state. Private system instructions, hidden policies, credentials and protected film identities were not copied.
+## Research boundary
 
-Only upload material you have the right and permission to use. Check the privacy terms of the AI service before uploading confidential client work, unreleased scripts or personal data.
+Award-winning animation research is intended to become internal story intelligence, not mandatory beginner homework. It supports transferable mechanisms such as emotional clarity, visible wants/obstacles, turns, choices, setup/payoff and earned endings. It does not justify copying protected characters, plots, dialogue, shots or distinctive artist styles.
+
+Short-film award research also does not by itself prove every episodic-series heuristic. The Master separates stable story principles from series workflow logic and from changing tool/model facts.
 
 ## Research and tests
 
@@ -95,4 +169,4 @@ Only upload material you have the right and permission to use. Check the privacy
 - `tests/last-drop-end-to-end.md`
 - `tests/standalone-brain-contracts.md`
 
-The manually authored continuity fixture illustrates how one fictional film should preserve decisions through story, references, boards, shots, keyframes, motion, audio, edit and QC. It is not recorded output from running every brain and does not claim a final video was generated.
+The manually authored continuity fixture illustrates the intended handoff logic. It is not recorded proof that every Brain has been run end-to-end through every external AI and media tool.
