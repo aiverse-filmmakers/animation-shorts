@@ -1,6 +1,8 @@
-# Supplementary previous-version brain
+# Previous-version compatibility file
 
-This specialist is retained for existing links but is not part of the current beginner package. First-time users should start with:
+This older supplementary brain is retained so existing public links keep working. It is not part of the current beginner package.
+
+Current canonical file: `master/MASTER-AI-ANIMATION-DIRECTOR.md`
 
 https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/master/MASTER-AI-ANIMATION-DIRECTOR.md
 

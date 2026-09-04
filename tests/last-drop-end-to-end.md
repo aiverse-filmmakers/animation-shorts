@@ -1,6 +1,6 @@
-# Original End-to-End Brain Test: The Lantern Seed
+# Illustrative Pipeline Continuity Fixture: The Lantern Seed
 
-STATUS: TEXTUAL PIPELINE TEST, no final video-generation claim
+STATUS: MANUALLY AUTHORED STATIC EXAMPLE, not recorded brain outputs and not a final video-generation claim
 DATE: 2026-09-04
 
 ## Original brief idea
@@ -57,7 +57,7 @@ SECONDARY MOTION: tiny water ripple in the soil, a restrained servo adjustment, 
 CAMERA: locked medium view with a gentle push toward the drop.
 AUDIO: water drop, quiet servo, rooftop ambience. Audio: no music.
 
-## End-to-end test assertions
+## Intended continuity invariants
 
 1. The robot, lantern, rooftop garden, blue sticker, water scarcity and cool-to-warm light survive every handoff.
 2. The film has nine editorial shots with canonical `SHOT-##` IDs and three story sequences, not one undifferentiated prompt.

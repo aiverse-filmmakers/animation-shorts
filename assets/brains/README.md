@@ -95,4 +95,4 @@ Only upload material you have the right and permission to use. Check the privacy
 - `tests/last-drop-end-to-end.md`
 - `tests/standalone-brain-contracts.md`
 
-The end-to-end fixture passes one fictional film through story, references, boards, shots, keyframes, motion, audio, edit and QC. It does not claim a final video was generated.
+The manually authored continuity fixture illustrates how one fictional film should preserve decisions through story, references, boards, shots, keyframes, motion, audio, edit and QC. It is not recorded output from running every brain and does not claim a final video was generated.

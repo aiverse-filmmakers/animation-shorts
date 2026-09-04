@@ -3,7 +3,7 @@
 DATE: 2026-09-04
 STATUS: PASS for static structural contracts; model behaviour not proven
 
-Each canonical file was read and checked independently by `tests/validate_brain_library.py`. This is deterministic text validation, not execution inside external AI accounts. No test supplied another brain file or hidden project memory. Each file contained its own role, Story DNA, minimum-input fallback, job boundary, output contract, stable-ID rules, lock-state language, evidence labels, failure recovery and handoff fields.
+`tests/validate_brain_library.py` checks deterministic marker presence, Master-versus-specialist activation wording, the shared rights/privacy section, the canonical Project State schema, exact ZIP membership and bytes, lesson status consistency, public metadata, compatibility targets and selected fixture markers. This is static text validation, not execution inside external AI accounts or proof that an LLM will follow every instruction.
 
 ## Individual checks
 
@@ -23,7 +23,7 @@ Each canonical file was read and checked independently by `tests/validate_brain_
 
 ## End-to-end fixture
 
-`tests/last-drop-end-to-end.md` passes the fictional short `The Last Drop` through story, synopsis, script, reference extraction, storyboard, packaging, keyframes, motion, audio, edit and QC. Stable character, prop, world, medium, shot and audio decisions remain explicit. The fixture does not claim that a final video was generated.
+`tests/last-drop-end-to-end.md` is a manually authored continuity example for the fictional short `The Last Drop`. It illustrates the intended story, reference, storyboard, packaging, keyframe, motion, audio, edit and QC handoffs. It is not a record of outputs produced by running every brain and does not claim that a final video was generated.
 
 ## Boundary
 
