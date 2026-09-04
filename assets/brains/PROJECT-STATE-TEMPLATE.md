@@ -1,10 +1,15 @@
 # AI Animation Project State Template
 
-Save one copy for each film. Update it after every approved stage. Attach it whenever you start a new AI chat so the next brain does not have to guess what was decided.
+Use this as the compact active memory for the film or episode you are currently producing. Update it after approved stages and attach the latest version when a new AI chat needs to resume active work.
+
+For a connected series, this file does **not replace** the Series Bible, Episode End State or Asset Manifest. Those have different jobs.
 
 ```text
 PROJECT TITLE:
 CURRENT STAGE:
+FORMAT: STANDALONE / SERIES EPISODE
+SERIES TITLE, IF ANY:
+EPISODE ID, IF ANY:
 TARGET RUNTIME:
 ASPECT RATIO:
 FRAME RATE, IF KNOWN:
@@ -25,9 +30,9 @@ SCRIPT FILE OR VERSION:
 
 VISUAL LOCKS
 MEDIUM:
-CHARACTER:
-IMPORTANT PROP OR OBJECT:
-WORLD OR LOCATION:
+CHARACTERS:
+IMPORTANT PROPS / OBJECTS:
+WORLD / LOCATIONS:
 PALETTE / LIGHT / TEXTURE:
 MUST NOT CHANGE:
 
@@ -64,8 +69,12 @@ NEXT ACTION:
 
 ## How to use it
 
-1. Leave unknown fields blank or write `TO DECIDE`.
-2. Do not let the AI fill unknown facts as if they were approved.
-3. After you approve a decision, move it into the correct locked field.
-4. Keep file names exact. Do not write that an image, clip or document is attached unless it is attached in the current chat.
-5. Save versions rather than overwriting a good checkpoint, for example `project-state-v03.md`.
+1. Leave unknown fields blank or write `TO DECIDE` / `TO VERIFY`.
+2. Do not let an AI fill unknown facts as if they were approved.
+3. After you approve a decision, move it into the appropriate locked field.
+4. Keep exact filenames for approved media. Do not write that a file is attached unless it is actually available in the current chat.
+5. Save versions instead of overwriting useful checkpoints, for example `project-state-v03.md`.
+6. For a connected series, permanent canon belongs in `SERIES-BIBLE-v##.md`.
+7. At the end of each episode, what became true belongs in `E##-END-STATE.md`.
+8. Exact approved media authorities belong in `ASSET-MANIFEST-v##.md`.
+9. Use episode-safe editorial IDs such as `E01-SHOT-01`, not a reused bare `SHOT-01`, when several episodes share one project.
