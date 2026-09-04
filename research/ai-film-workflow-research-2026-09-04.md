@@ -51,9 +51,30 @@ The sources describe features and workflows at their stated dates. Availability,
 
 The award-winning story research in the course is used for transferable mechanisms such as a clear dramatic question, a small external engine, a strong relationship, a meaningful metaphor and one emotional turn. It isn't used to copy plots, characters, dialogue, protected visual identities or individual film styles.
 
-## Sources
+## Additional festival findings
 
-[1] LTX Studio, “The AI platform for video production,” accessed 4 September 2026: https://ltx.io/studio
+A second research pass checked public festival criteria, jury language and filmmaker education resources.[8][9][10] The added patterns are:
+
+1. Narrative cohesion, originality and meaningful AI involvement matter more than novelty alone.[8]
+2. A synopsis should compress a character, pressure, visual or formal engine and changed ending state, not list impressive images.[9]
+3. Animation scripts should describe observable action, sound intention and flexible storyboard opportunities. Storyboarding can improve the written plan rather than merely illustrate it.[10]
+4. A seven-beat version is useful when a short needs a separate reversal and irreversible choice: ordinary image, disruption, first response, complication, reversal, choice, after-image.[9]
+5. Each generated clip should have one dramatic job, one main action, continuity anchors, a sound cue and a transition reason. The research suggests short emotional units rather than one overloaded scene prompt.[9][10]
+6. A visual metaphor should have a literal layer, emotional meaning, behaviour rule, escalation and payoff.[9]
+7. Sound should be planned as world bed, action detail, voice, music or silence, with the turn and final image given deliberate audio space.[9]
+8. AI-film submission preparation must include accurate AI disclosure, rights, credits, subtitles and destination-specific delivery checks.[8]
+
+These findings were added to the Visual Metaphor Builder, AI Suitability and Shot Budget, and Festival Readiness brains. They also reinforce the existing story-first and human-selection rules.
+
+## Additional sources
+
+[8] AI Film Festival Japan, “Terms and Conditions.” https://aifilm.jp/?page_id=959
+
+[9] Sundance Institute, “2025 Sundance Film Festival Short Film Program Award Winners Announced.” https://www.sundance.org/blogs/2025-sundance-film-festival-short-film-program-award-winners-announced/
+
+[10] Academy of Motion Picture Arts and Sciences, “Lessons Learned: John August on Screenwriting.” https://www.oscars.org/johnaugustlessons/
+
+
 
 [2] Google, “Introducing Flow: Google’s AI filmmaking tool designed for Veo,” 20 May 2025: https://blog.google/innovation-and-ai/products/google-flow-veo-ai-filmmaking-tool/
 

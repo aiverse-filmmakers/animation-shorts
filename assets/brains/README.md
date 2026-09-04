@@ -15,6 +15,9 @@ These Markdown files are portable creative roles. Download one file and paste it
 9. `08-sound-and-finish-director.md` - finish after usable shots exist.
 10. `09-originality-and-qc.md` - review before delivery.
 11. `10-portfolio-film-review.md` - prepare the finished short for public presentation.
+12. `11-visual-metaphor-builder.md` - make the central image behave like story.
+13. `12-ai-suitability-and-shot-budget.md` - simplify difficult shots before generation.
+14. `13-festival-readiness-and-director-statement.md` - prepare the film for public delivery.
 
 ## How to use one file
 
@@ -31,7 +34,14 @@ These brains teach original story development and AI-assisted production plannin
 
 ## Research foundation
 
-The story principles were informed by official Academy and Annecy award records, Pixar in a Box / Khan Academy, Walt Disney Animation Studios and ScreenSkills. The files separate verified source facts from practical teaching recommendations.
+The story principles were informed by official Academy and Annecy award records, Pixar in a Box / Khan Academy, Walt Disney Animation Studios, ScreenSkills, Sundance award commentary, AI Film Festival Japan terms and current AI-film workflow documentation from Google Flow, LTX Studio and Adobe. The files separate verified source facts from practical teaching recommendations.
+
+## Current research notes
+
+- `research/ai-film-workflow-research-2026-09-04.md` - current AI-film workflow and festival synthesis.
+- `research/academy-awards-research.md` - Academy animated-short research.
+- `research/annecy-award-research.md` - Annecy short-film award research.
+- `research/storytelling-research.md` - story and production principles.
 
 ## Source links
 
