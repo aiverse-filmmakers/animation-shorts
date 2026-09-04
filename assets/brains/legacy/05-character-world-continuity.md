@@ -1,7 +1,9 @@
-# Compatibility alias
+# Compatibility link only
 
-This download is retained for older links. Use the canonical brain below for the expanded workflow:
+This small file is not an operational AI brain. It is retained so an older URL does not disappear. Download the complete current brain here:
 
-`preproduction/04-CONSISTENCY-REFERENCE-DIRECTOR.md`
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/preproduction/04-CONSISTENCY-REFERENCE-DIRECTOR.md
 
-The canonical file contains the current operational instructions.
+If you are new, open:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/START-HERE.md

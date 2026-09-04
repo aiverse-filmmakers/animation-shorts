@@ -1,7 +1,9 @@
-# Compatibility alias
+# Compatibility link only
 
-This download is retained for older links. Use the canonical brain below for the expanded workflow:
+This small file is not an operational AI brain. It is retained so an older URL does not disappear. Download the complete current brain here:
 
-`post/11-FINAL-FILM-CRITIC-QC.md`
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/post/11-FINAL-FILM-CRITIC-QC.md
 
-The canonical file contains the current operational instructions.
+If you are new, open:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/START-HERE.md

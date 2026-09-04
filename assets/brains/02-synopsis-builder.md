@@ -1,3 +1,15 @@
+# Previous-version compatibility file
+
+This older operational brain is retained so existing public links keep working. For new projects, use the current canonical brain:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/story/02-SYNOPSIS-ARCHITECT.md
+
+The current beginner guide is:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/START-HERE.md
+
+---
+
 # Animated Short Synopsis Builder Brain
 
 ## Role

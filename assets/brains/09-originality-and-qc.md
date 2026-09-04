@@ -1,3 +1,15 @@
+# Previous-version compatibility file
+
+This older operational brain is retained so existing public links keep working. For new projects, use the current canonical brain:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/post/11-FINAL-FILM-CRITIC-QC.md
+
+The current beginner guide is:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/START-HERE.md
+
+---
+
 # AI Animation Originality and QC Brain
 
 ## Role

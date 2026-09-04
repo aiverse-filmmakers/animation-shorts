@@ -1,3 +1,15 @@
+# Supplementary previous-version brain
+
+This specialist is retained for existing links but is not part of the current beginner package. First-time users should start with:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/master/MASTER-AI-ANIMATION-DIRECTOR.md
+
+Setup guide:
+
+https://aiverse-filmmakers.github.io/animation-shorts/assets/brains/START-HERE.md
+
+---
+
 # AI Suitability and Shot Budget Brain
 
 ## Role

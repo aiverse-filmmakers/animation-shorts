@@ -1,9 +1,9 @@
 # Standalone Brain Contract Test Report
 
 DATE: 2026-09-04
-STATUS: PASS for structural standalone contracts
+STATUS: PASS for static structural contracts; model behaviour not proven
 
-Each canonical file was loaded independently by `tests/validate_brain_library.py`. No test supplied another brain file or hidden project memory. Each file contained its own role, Story DNA, minimum-input fallback, job boundary, output contract, stable-ID rules, lock-state language, evidence labels, failure recovery and handoff fields.
+Each canonical file was read and checked independently by `tests/validate_brain_library.py`. This is deterministic text validation, not execution inside external AI accounts. No test supplied another brain file or hidden project memory. Each file contained its own role, Story DNA, minimum-input fallback, job boundary, output contract, stable-ID rules, lock-state language, evidence labels, failure recovery and handoff fields.
 
 ## Individual checks
 

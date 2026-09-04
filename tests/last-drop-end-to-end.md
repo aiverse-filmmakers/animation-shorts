@@ -31,25 +31,25 @@ AUDIO RULE: natural rooftop wind, small mechanical movement, water drop, glass r
 
 ## Script-to-shot handoff
 
-S1 00:00-00:08: Robot checks the dry planters and sees the dark lantern. Purpose: establish want and scarcity.
-S2 00:08-00:16: A glow reveals the seed inside the cracked lantern. Purpose: the opportunity appears.
-S3 00:16-00:25: Robot checks its reservoir. One drop remains. Purpose: visible constraint.
-S4 00:25-00:35: Robot carries the lantern and places the seed in soil. Purpose: attempt begins.
-S5 00:35-00:44: Robot releases the final drop. Purpose: irreversible choice.
-S6 00:44-00:54: Wind rises. Robot uses its body and lantern to shield the seed. Purpose: escalation and protection.
-S7 00:54-01:03: Robot's reservoir light goes dark as the sprout bends. Purpose: apparent loss.
-S8 01:03-01:11: Sunrise arrives. The flower opens inside the lantern. Purpose: turn and payoff.
-S9 01:11-01:15: Warm flower light reflects in the robot's face panel. Purpose: earned final image.
+SHOT-01 00:00-00:08: Robot checks the dry planters and sees the dark lantern. Purpose: establish want and scarcity.
+SHOT-02 00:08-00:16: A glow reveals the seed inside the cracked lantern. Purpose: the opportunity appears.
+SHOT-03 00:16-00:25: Robot checks its reservoir. One drop remains. Purpose: visible constraint.
+SHOT-04 00:25-00:35: Robot carries the lantern and places the seed in soil. Purpose: attempt begins.
+SHOT-05 00:35-00:44: Robot releases the final drop. Purpose: irreversible choice.
+SHOT-06 00:44-00:54: Wind rises. Robot uses its body and lantern to shield the seed. Purpose: escalation and protection.
+SHOT-07 00:54-01:03: Robot's reservoir light goes dark as the sprout bends. Purpose: apparent loss.
+SHOT-08 01:03-01:11: Sunrise arrives. The flower opens inside the lantern. Purpose: turn and payoff.
+SHOT-09 01:11-01:15: Warm flower light reflects in the robot's face panel. Purpose: earned final image.
 
 ## Generation packaging
 
-SEQUENCE 1 00:00-00:25: S1-S3, discovery and constraint.
-SEQUENCE 2 00:25-00:54: S4-S6, attempt and escalation.
-SEQUENCE 3 00:54-01:15: S7-S9, apparent loss, turn and resolution.
+SEQUENCE 1 00:00-00:25: SHOT-01-SHOT-03, discovery and constraint.
+SEQUENCE 2 00:25-00:54: SHOT-04-SHOT-06, attempt and escalation.
+SEQUENCE 3 00:54-01:15: SHOT-07-SHOT-09, apparent loss, turn and resolution.
 
-Generation blocks remain separate from editorial shots. A pilot can begin with S5 as the most important action test. A verified tool duration limit must decide whether each shot is one generation or a continuation. The 30-second sections are story containers, not automatic generation lengths.
+Generation blocks remain separate from editorial shots. A pilot can begin with SHOT-05 as the most important action test. A verified tool duration limit must decide whether each shot is one generation or a continuation. The 30-second sections are story containers, not automatic generation lengths.
 
-## Sample motion prompt for S5
+## Sample motion prompt for SHOT-05
 
 RENDER: stylized 3D animation with tactile painted brass and paper-like foliage. Preserve the locked robot, lantern, rooftop garden and cool pre-dawn light.
 ACTION: the robot carefully tilts its small reservoir and releases one final water drop onto the seed. The drop lands visibly in the soil. The robot pauses and looks at the empty reservoir.
@@ -60,10 +60,10 @@ AUDIO: water drop, quiet servo, rooftop ambience. Audio: no music.
 ## End-to-end test assertions
 
 1. The robot, lantern, rooftop garden, blue sticker, water scarcity and cool-to-warm light survive every handoff.
-2. The film has nine editorial shots and three story sequences, not one undifferentiated prompt.
-3. The storyboard mode is Story Progression for the full sequence and Freeze Multi-Angle only for exploring S5 viewpoints.
-4. S5 remains the turn. S8 reveals the flower. S9 is the final image.
+2. The film has nine editorial shots with canonical `SHOT-##` IDs and three story sequences, not one undifferentiated prompt.
+3. The storyboard mode is Story Progression for the full sequence and Freeze Multi-Angle only for exploring SHOT-05 viewpoints.
+4. SHOT-05 remains the turn. SHOT-08 reveals the flower. SHOT-09 is the final image.
 5. The audio rule survives every independent motion block.
 6. No tool duration or API capability is claimed without a dated verification.
-7. The final critic can identify S7 as the earliest emotional risk if the apparent loss is unclear.
+7. The final critic can identify SHOT-07 as the earliest emotional risk if the apparent loss is unclear.
 8. No approved lock is casually reinvented.
