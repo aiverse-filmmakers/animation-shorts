@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ffffff">
+<title>Learn | AI Animation Shorts</title><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#fff;--ink:#171817;--muted:#6c6f69;--line:#dedfd9;--surface:#f6f6f4;--accent:#146b4b;color-scheme:light}html[data-theme="dark"]{--bg:#000;--ink:#f5f5f0;--muted:#a5a79f;--line:#34352f;--surface:#111;--accent:#72d4a8;color-scheme:dark}*{box-sizing:border-box}html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:16px/1.4 system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif}.bar{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 clamp(16px,4vw,56px);border-bottom:1px solid var(--line);background:var(--bg);position:relative;z-index:3}.brand{color:var(--ink);text-decoration:none;font-weight:760;letter-spacing:-.035em;font-size:17px}.brand small{display:block;font-size:9px;line-height:1.2;letter-spacing:.17em;text-transform:uppercase;color:var(--muted)}.actions{display:flex;align-items:center;gap:8px}.button,.theme{min-height:42px;border:1px solid var(--line);border-radius:999px;background:var(--bg);color:var(--ink);padding:0 15px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;font-weight:700}.button.primary{background:var(--accent);border-color:var(--accent);color:#fff}.theme{width:46px;padding:0;cursor:pointer}.frame{width:100%;height:calc(100vh - 70px);border:0;display:block;background:var(--bg)}@media(max-width:560px){.bar{padding:0 12px}.brand small{display:none}.actions .button:not(.primary){display:none}.button{font-size:13px;padding:0 12px}}
+</style>
+</head>
+<body>
+<header class="bar"><a class="brand" href="index.html">AI Animation Shorts<small>AI-Verse Filmmaking System</small></a><div class="actions"><a class="button primary" href="index.html">← Back to AI Director</a><a class="button" href="index.html#brains">Brains</a><button class="theme" id="theme" aria-label="Switch theme">☀</button></div></header>
+<iframe class="frame" src="course.html" title="AI Animation Shorts learning course"></iframe>
+<script>let theme=document.querySelector('#theme');function setTheme(v){document.documentElement.dataset.theme=v;theme.textContent=v==='dark'?'☾':'☀';document.querySelector('meta[name="theme-color"]').content=v==='dark'?'#000':'#fff';localStorage.setItem('ai-animation-theme-v1',v)}theme.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');setTheme(localStorage.getItem('ai-animation-theme-v1')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));</script>
+</body></html>
