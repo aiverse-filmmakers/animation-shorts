@@ -9,6 +9,10 @@
 </head>
 <body>
 <header class="bar"><a class="brand" href="index.html">AI Animation Shorts<small>AI-Verse Filmmaking System</small></a><div class="actions"><a class="button primary" href="index.html">← Back to AI Director</a><a class="button" href="index.html#brains">Brains</a><button class="theme" id="theme" aria-label="Switch theme">☀</button></div></header>
-<iframe class="frame" src="course.html" title="AI Animation Shorts learning course"></iframe>
-<script>let theme=document.querySelector('#theme');function setTheme(v){document.documentElement.dataset.theme=v;theme.textContent=v==='dark'?'☾':'☀';document.querySelector('meta[name="theme-color"]').content=v==='dark'?'#000':'#fff';localStorage.setItem('ai-animation-theme-v1',v)}theme.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');setTheme(localStorage.getItem('ai-animation-theme-v1')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));</script>
+<iframe class="frame" id="course-frame" src="course.html" title="AI Animation Shorts learning course"></iframe>
+<script>
+const frame=document.querySelector('#course-frame');
+frame.addEventListener('load',()=>{try{const d=frame.contentDocument;if(!d)return;const brand=d.querySelector('.brand');if(brand){brand.setAttribute('href','index.html');brand.setAttribute('target','_top');brand.title='Back to AI Director'}d.querySelectorAll('a[href]').forEach(a=>{const raw=a.getAttribute('href')||'';if(/\.md(?:$|#)/i.test(raw)){a.addEventListener('click',e=>{e.preventDefault();let clean=raw.split('#')[0].replace(/^\.\//,'');if(!clean.startsWith('assets/')&&!clean.startsWith('research/')&&!clean.startsWith('tests/')){const base=new URL(frame.src,location.href);clean=new URL(clean,base).pathname.replace(/^\/animation-shorts\//,'')}top.location.href='reader.html?file='+encodeURIComponent(clean)})}})}catch(e){}});
+let theme=document.querySelector('#theme');function setTheme(v){document.documentElement.dataset.theme=v;theme.textContent=v==='dark'?'☾':'☀';document.querySelector('meta[name="theme-color"]').content=v==='dark'?'#000':'#fff';localStorage.setItem('ai-animation-theme-v1',v)}theme.onclick=()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark');setTheme(localStorage.getItem('ai-animation-theme-v1')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'));
+</script>
 </body></html>
