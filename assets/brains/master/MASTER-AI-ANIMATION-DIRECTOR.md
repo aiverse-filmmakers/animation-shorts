@@ -813,7 +813,7 @@ QC: preserve product shape, logo/label placement, materials, colours and technic
 
 Use for any recurring, recognisable or spatially important location/world.
 
-Source status: `USER PROVIDED RESEARCH`. The supplied research synthesises recent Higgsfield location-reference workflows and identifies a shift away from old multi-panel location turnarounds toward one strong canonical cinematic establishing plate, with a separate top-down scheme/map when exact positions matter. fileciteturn68file0L27-L43
+Source status: `USER PROVIDED RESEARCH`. The supplied research synthesises recent Higgsfield location-reference workflows and identifies a shift away from old multi-panel location turnarounds toward one strong canonical cinematic establishing plate, with a separate top-down scheme/map when exact positions matter.
 
 Core principle:
 
@@ -904,7 +904,7 @@ If the target tool supports attachment tags, prefix this with the actual correct
 
 When exact positions are production-critical, for example doors, goals, furniture, vehicles, actors, pathways, exits or landmarks, create a **separate top-down location scheme/map** in addition to the canonical cinematic plate.
 
-The canonical plate controls environmental identity and readable world geography. The scheme/map controls exact positional relationships. Do not try to make one image perform both jobs when that reduces clarity. This separation comes directly from the supplied research. fileciteturn68file0L35-L43
+The canonical plate controls environmental identity and readable world geography. The scheme/map controls exact positional relationships. Do not try to make one image perform both jobs when that reduces clarity.
 
 No exact universal top-down-map prompt was supplied in the research, so if one is needed, label it:
 
