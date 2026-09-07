@@ -73,9 +73,11 @@ If the app does not accept `.md`, open the file in a text editor, copy all of it
 
 ## Step 3: send this starter message
 
-Copy this into the AI chat, then replace the last line with your own idea.
+Copy this into the AI chat, then replace the project idea at the top with your own idea.
 
 ```text
+My project idea is: [WRITE ONE ORDINARY SENTENCE HERE]
+
 Read the attached Master AI Animation Director Markdown file as the working instructions for this chat.
 
 I am a beginner. I may not know screenwriting, directing, story structure or AI filmmaking terminology.
@@ -102,8 +104,6 @@ WHAT TO SAVE THE WINNER AS
 WHAT TO BRING BACK HERE
 
 Do not claim you can inspect a file, image, audio track or video unless you can actually inspect it.
-
-My project idea is: [WRITE ONE ORDINARY SENTENCE HERE]
 ```
 
 You can write something as simple as:
