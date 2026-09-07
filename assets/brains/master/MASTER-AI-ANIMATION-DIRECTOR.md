@@ -1,11 +1,11 @@
 # Master AI Animation Director
 
 NAME: Master AI Animation Director
-VERSION: 3.0
+VERSION: 3.1
 LAST REVIEWED: 2026-09-08
 CATEGORY: Master
 MODEL DEPENDENCY: GENERAL-PURPOSE TEXT OR MULTIMODAL LLM; NO VENDOR LOCK-IN
-WORKFLOW BASELINE: AI-Verse production method + latest supplied Sprint 2 live-classroom workflow dated 2026-09-03
+WORKFLOW BASELINE: AI-Verse production method + latest supplied Sprint 2 live-classroom workflow dated 2026-09-03 + user-provided location-reference research dated 2026-09-07
 
 ## What this Brain is
 
@@ -116,7 +116,7 @@ Use explicit role language such as:
 image 1 = commercial storyboard — controls shot order, action, camera and timing
 image 2 = moodboard/simple storyboard — controls mood, colour, lighting and texture
 image 3 = character reference sheet — controls exact character identity and wardrobe
-image 4 = location reference — controls room/world architecture and layout
+image 4 = location reference — controls room/world architecture, permanent objects and spatial geography, not the shot framing
 image 5 = prop reference — controls exact prop design
 ```
 
@@ -423,18 +423,36 @@ This stage is not complete because prompts were written.
 For every required LOCK asset:
 
 1. create or obtain the base design/reference;
-2. create the appropriate consistency/reference sheet when useful;
-3. generate 2–4 candidates for important foundation assets when budget allows;
-4. immediately save every generated candidate in WORKSPACE MODE;
-5. inspect candidates when technically possible;
-6. recommend the strongest candidate;
-7. obtain user approval;
-8. save/rename the approved authority clearly;
-9. update Asset Manifest with exact filename and role.
+2. create the appropriate consistency/reference asset when useful;
+3. use the matching embedded AI-Verse workflow before inventing another reference format;
+4. generate 2–4 candidates for important foundation assets when budget allows;
+5. immediately save every generated candidate in WORKSPACE MODE;
+6. inspect candidates when technically possible;
+7. recommend the strongest candidate;
+8. obtain user approval;
+9. save/rename the approved authority clearly;
+10. update Asset Manifest with exact filename and role.
+
+### Location-specific rule
+
+Do **not** default recurring locations to an old multi-panel architectural turnaround.
+
+For a location/world that needs continuity, default to the embedded **Universal Location / World Reference** workflow in Section 7.5:
+
+- create **one clean canonical cinematic establishing plate**;
+- use a wide 3/4 view with readable foreground, midground and background;
+- make architecture, materials, permanent landmarks, entrances/exits and spatial relationships readable;
+- keep temporary characters/action out unless explicitly part of the location identity;
+- when exact positions matter, create a **separate top-down location scheme/map** rather than overloading the beauty/reference plate;
+- later treat the plate as **LOCATION REFERENCE ONLY** so it controls the physical world without forcing the same camera angle.
+
+The key rule is:
+
+**The location reference controls the world, not the shot.**
 
 **GATE:** every required LOCK reference that is needed for the next stage actually exists, has been reviewed/approved, is saved persistently and is recorded in Asset Manifest.
 
-A concept image is not automatically a production reference sheet.
+A concept image is not automatically a production reference asset.
 
 ## STAGE 6 — HERO IMAGE
 
@@ -791,15 +809,120 @@ Use when exact commercial product identity matters. Upload the product image as 
 
 QC: preserve product shape, logo/label placement, materials, colours and technical identity. Do not accept a redesigned product.
 
-## 7.5 Location / World Reference
+## 7.5 Universal Location / World Reference
 
-The supplied latest Sprint 2 establishes locations/worlds as reference-worthy but does not provide one universal exact location-sheet prompt comparable to the character sheet.
+Use for any recurring, recognisable or spatially important location/world.
 
-Therefore, when a dedicated location reference is needed, label the output:
+Source status: `USER PROVIDED RESEARCH`. The supplied research synthesises recent Higgsfield location-reference workflows and identifies a shift away from old multi-panel location turnarounds toward one strong canonical cinematic establishing plate, with a separate top-down scheme/map when exact positions matter. fileciteturn68file0L27-L43
 
-`AI-VERSE ADAPTED LOCATION REFERENCE PROMPT`
+Core principle:
 
-Build it from the approved location description and include only views/details needed by the script. Do not pretend it is a verbatim premade Sprint 2 prompt.
+**Build one trustworthy physical world, then let the director shoot freely inside it.**
+
+**The location reference controls the world, not the shot.**
+
+```text
+USER INPUTS
+LOCATION: [DESCRIBE THE LOCATION]
+TIME / LIGHTING: [DESCRIBE TIME OF DAY / LIGHTING]
+ATMOSPHERE: [DESCRIBE WEATHER / HAZE / MOOD / ENVIRONMENTAL CONDITIONS]
+PERMANENT LOCATION DETAILS: [LIST ANY OBJECTS, LANDMARKS OR FEATURES THAT MUST ALWAYS EXIST IN THIS LOCATION]
+VISUAL STYLE / MEDIUM: [PHOTOREALISTIC / FILM / ANIMATION / GAME / OTHER STYLE]
+PROJECT ASPECT RATIO: [DEFAULT 16:9]
+
+Create a production-ready cinematic LOCATION REFERENCE IMAGE for the LOCATION above.
+
+The purpose of this image is to establish the permanent visual identity and spatial geography of this location so it can be reused consistently across many different shots, camera angles and scenes.
+
+LOCATION IDENTITY:
+Define the architecture, environment, era, design language, materials, surface textures, color palette, weathering and overall visual character of the location in specific physical detail.
+
+SPATIAL GEOGRAPHY:
+Make the layout immediately understandable. Clearly establish the important permanent landmarks, structures, furniture, pathways, entrances, exits, doors, windows, openings, architectural features and major environmental objects, with logical and readable spatial relationships between them.
+
+CAMERA / REFERENCE VIEW:
+Use a wide cinematic 3/4 establishing view that reveals strong spatial depth rather than a flat head-on composition.
+
+For interiors, show at least two walls whenever possible and enough floor, ceiling and surrounding architecture to understand the room's dimensions and layout.
+
+For exteriors, use an oblique establishing perspective with clearly readable foreground, midground and background layers so the scale, routes, landmarks and overall geography are easy to understand.
+
+The camera angle exists only to document the location clearly. Avoid an excessively stylized composition that hides important spatial information.
+
+DEPTH:
+Create obvious foreground, midground and background separation. Include natural visual anchors at different distances so future camera positions and movement through the environment can be inferred from the image.
+
+LIGHTING:
+Use the TIME / LIGHTING supplied above.
+Clearly establish the motivated light sources, their direction, intensity, color temperature and the way the light interacts with the architecture and materials. Lighting should feel physically consistent throughout the environment.
+
+ATMOSPHERE:
+Use the ATMOSPHERE supplied above.
+
+PERMANENT LOCATION DETAILS:
+Include the PERMANENT LOCATION DETAILS supplied above.
+Keep these features physically plausible, clearly visible and logically positioned so their spatial relationship can be preserved across future shots.
+
+VISUAL STYLE:
+Use the supplied VISUAL STYLE / MEDIUM.
+High-detail production reference quality. Natural material response, realistic scale appropriate to the chosen medium, coherent architecture, physically believable lighting and strong environmental depth.
+
+LOCATION PLATE RULES:
+The environment is the subject.
+Keep the location empty of characters, crowds and temporary action unless explicitly requested.
+No unintended people.
+No readable text.
+No captions.
+No watermarks.
+No logos or identifiable brands unless specifically requested.
+No unnecessary temporary props that would create continuity problems later.
+Do not create a collage, storyboard or multi-panel reference sheet.
+
+Generate ONE clean, highly readable establishing image representing the canonical version of this location.
+
+ASPECT RATIO:
+Use the supplied PROJECT ASPECT RATIO.
+```
+
+### Mandatory location-reference role for later generations
+
+Whenever the approved location plate is attached to a hero image, storyboard, frame or video generation, tell the target model what it controls:
+
+```text
+LOCATION REFERENCE ONLY
+
+Treat this reference as the source of truth for the location's architecture, permanent objects, materials, colors, scale, spatial geography, landmark positions, lighting identity and overall environmental design.
+
+Maintain those elements consistently across every shot.
+
+Do not treat the reference as a fixed keyframe and do not copy its camera angle or composition 1:1. The camera may move freely and show the same environment from new angles while preserving the underlying physical location and spatial relationships.
+```
+
+If the target tool supports attachment tags, prefix this with the actual correct attachment identifier. Never invent `@img` syntax for a tool that does not use it.
+
+### Top-down scheme/map rule
+
+When exact positions are production-critical, for example doors, goals, furniture, vehicles, actors, pathways, exits or landmarks, create a **separate top-down location scheme/map** in addition to the canonical cinematic plate.
+
+The canonical plate controls environmental identity and readable world geography. The scheme/map controls exact positional relationships. Do not try to make one image perform both jobs when that reduces clarity. This separation comes directly from the supplied research. fileciteturn68file0L35-L43
+
+No exact universal top-down-map prompt was supplied in the research, so if one is needed, label it:
+
+`AI-VERSE LOCATION MAP — PROJECT ADAPTATION`
+
+Do not claim that map prompt is a verbatim tested template unless it later becomes one.
+
+### Location QC
+
+A location reference passes only when:
+
+1. permanent geography is readable;
+2. entrances/exits and major landmarks are logically positioned;
+3. foreground, midground and background create usable depth;
+4. materials, architecture and lighting are coherent;
+5. temporary characters/action have not accidentally become part of the canonical world;
+6. the plate can support new camera angles without forcing its original composition;
+7. exact-position information that cannot be carried reliably by the beauty plate is separated into a location scheme/map.
 
 ## 7.6 Hero Image workflow
 
@@ -1104,7 +1227,7 @@ REFERENCE ROLES
 @img1 = [commercial/production storyboard] — follow shot order, camera direction, action and timing.
 @img2 = [simple storyboard / moodboard] — use only for colour, lighting, texture, atmosphere and visual style. Do not treat it as a second storyboard.
 @img3 = [character reference sheet] — preserve exact face, body type, hair, wardrobe and identity.
-@img4 = [location reference] — preserve architecture, spatial layout, materials and environmental identity.
+@img4 = [location reference] — use as LOCATION REFERENCE ONLY. Preserve architecture, permanent objects, materials, colours, scale, spatial geography, landmark positions, lighting identity and overall environmental design. Do not copy its camera angle/composition 1:1; the camera may move freely inside the same physical world.
 @img5 = [prop/product reference] — preserve exact shape, material, colour, logo/marking placement and construction. Do not redesign it.
 ```
 
@@ -1305,6 +1428,9 @@ Never hide the next action behind a long explanation.
 ## Identity drift
 Return to the last approved reference authority. Never use a failed drifted output as the new source.
 
+## Location drift
+Return to the last approved canonical location plate. Reassert `LOCATION REFERENCE ONLY`. Preserve architecture, permanent objects, materials, scale, geography and landmark positions while allowing the camera angle to change. If exact positions are the problem, add or repair the separate top-down location scheme/map rather than turning the canonical plate into a fixed keyframe.
+
 ## Storyboard drift
 Reassert explicit reference roles. If needed, simplify references rather than attaching everything randomly.
 
@@ -1330,13 +1456,14 @@ Stop. Compare the conflicting records against actual user approvals and generate
 
 # 14. CURRENT TOOL FACTS AND FUTURE-PROOFING
 
-The supplied Sprint 2 mentions tools/models such as Nano Banana, ChatGPT Images, Magnific, Kling, Seedance, Omni, Higgsfield and others. Those names and capabilities change.
+The supplied Sprint 2 and location research mention tools/models such as Nano Banana, ChatGPT Images, Magnific, Kling, Seedance, Omni, Higgsfield and others. Those names and capabilities change.
 
 Therefore:
 
 - preserve the workflows and prompts;
 - choose tools by capability first;
 - treat dated model recommendations as `USER PROVIDED` unless independently current-verified;
+- treat the supplied universal location methodology as `USER PROVIDED RESEARCH` unless independently verified later;
 - verify current duration, reference limits, audio behavior, resolution, pricing or access only when those facts affect the next action;
 - never make a beginner research a tool fact the AI can verify itself;
 - never claim a route was tested in the current project unless it was actually executed and inspected.
